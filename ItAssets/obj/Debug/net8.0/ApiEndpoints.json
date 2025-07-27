@@ -211,6 +211,412 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ItAssets.Controllers.DeviceController",
+    "Method": "GetById",
+    "RelativePath": "api/Device/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceController",
+    "Method": "DeleteWithPhoto",
+    "RelativePath": "api/Device/{id}/delete-with-photo",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceController",
+    "Method": "UpdateWithPhoto",
+    "RelativePath": "api/Device/{id}/update-with-photo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SerialNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BrandId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryID",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "SupplierID",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsFaulty",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsAvailable",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Qty",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceController",
+    "Method": "CreateWithPhoto",
+    "RelativePath": "api/Device/create-with-photo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SerialNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BrandId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryID",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "SupplierID",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsFaulty",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsAvailable",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Qty",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceController",
+    "Method": "GetAll",
+    "RelativePath": "api/Device/GetAllDevices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceMaintainanceScheduleController",
+    "Method": "Delete",
+    "RelativePath": "api/DeviceMaintainanceSchedule/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceMaintainanceScheduleController",
+    "Method": "GetAll",
+    "RelativePath": "api/DeviceMaintainanceSchedule/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceMaintainanceScheduleController",
+    "Method": "GetById",
+    "RelativePath": "api/DeviceMaintainanceSchedule/GetbyId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceMaintainanceScheduleController",
+    "Method": "Create",
+    "RelativePath": "api/DeviceMaintainanceSchedule/PostMaintainance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Itasset.Application.DTOs.DeviceMaintainanceScheduleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceMaintainanceScheduleController",
+    "Method": "Update",
+    "RelativePath": "api/DeviceMaintainanceSchedule/PutSchedule/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Itasset.Application.DTOs.DeviceMaintainanceScheduleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceRequestsController",
+    "Method": "Delete",
+    "RelativePath": "api/DeviceRequests/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceRequestsController",
+    "Method": "GetAll",
+    "RelativePath": "api/DeviceRequests/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceRequestsController",
+    "Method": "GetById",
+    "RelativePath": "api/DeviceRequests/GetbyId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceRequestsController",
+    "Method": "Create",
+    "RelativePath": "api/DeviceRequests/PostDeviceRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Itasset.Application.DTOs.DeviceRequestsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceRequestsController",
+    "Method": "Update",
+    "RelativePath": "api/DeviceRequests/PutDeviceRequest/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "devReq",
+        "Type": "Itasset.Application.DTOs.DeviceRequestsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceTransferController",
+    "Method": "Delete",
+    "RelativePath": "api/DeviceTransfer/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceTransferController",
+    "Method": "GetAll",
+    "RelativePath": "api/DeviceTransfer/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceTransferController",
+    "Method": "GetById",
+    "RelativePath": "api/DeviceTransfer/GetbyId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceTransferController",
+    "Method": "Create",
+    "RelativePath": "api/DeviceTransfer/PostDeviceTransfer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Itasset.Application.DTOs.DeviceTransferDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.DeviceTransferController",
+    "Method": "Update",
+    "RelativePath": "api/DeviceTransfer/PutDeviceTransfer/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "DeviceTransfer",
+        "Type": "Itasset.Application.DTOs.DeviceTransferDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ItAssets.Controllers.EmployeeController",
     "Method": "Delete",
     "RelativePath": "api/Employee/Delete/{id}",
@@ -290,6 +696,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ItAssets.Controllers.EmployeeDeviceAssignController",
+    "Method": "Delete",
+    "RelativePath": "api/EmployeeDeviceAssign/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.EmployeeDeviceAssignController",
+    "Method": "Assign",
+    "RelativePath": "api/EmployeeDeviceAssign/EmpDeviceAssignment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Itasset.Application.DTOs.EmployeeDeviceAssignmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.EmployeeDeviceAssignController",
+    "Method": "GetAll",
+    "RelativePath": "api/EmployeeDeviceAssign/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.EmployeeDeviceAssignController",
+    "Method": "GetById",
+    "RelativePath": "api/EmployeeDeviceAssign/GetbyId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.EmployeeDeviceAssignController",
+    "Method": "Return",
+    "RelativePath": "api/EmployeeDeviceAssign/ReturnDevice",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceReturn",
+        "Type": "Itasset.Application.DTOs.EmployeeDeviceReturn",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ItAssets.Controllers.OfficeController",
     "Method": "Delete",
     "RelativePath": "api/Office/Delete/{id}",
@@ -363,6 +843,80 @@
       {
         "Name": "office",
         "Type": "Itasset.Application.DTOs.OfficeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.OfficeDeviceAssignController",
+    "Method": "Delete",
+    "RelativePath": "api/OfficeDeviceAssign/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.OfficeDeviceAssignController",
+    "Method": "GetAll",
+    "RelativePath": "api/OfficeDeviceAssign/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.OfficeDeviceAssignController",
+    "Method": "GetById",
+    "RelativePath": "api/OfficeDeviceAssign/GetbyId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.OfficeDeviceAssignController",
+    "Method": "Assign",
+    "RelativePath": "api/OfficeDeviceAssign/OffDeviceAssignment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Itasset.Application.DTOs.OfficeDeviceAssignmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ItAssets.Controllers.OfficeDeviceAssignController",
+    "Method": "Return",
+    "RelativePath": "api/OfficeDeviceAssign/ReturnDevice",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceReturn",
+        "Type": "Itasset.Application.DTOs.OfficeDeviceReturnDTO",
         "IsRequired": true
       }
     ],

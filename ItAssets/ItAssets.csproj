@@ -22,4 +22,8 @@
     <ProjectReference Include="..\Itassets.Infrastructure\Itassets.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\devices\" />
+  </ItemGroup>
+
 </Project>

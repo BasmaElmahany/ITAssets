@@ -28,3 +28,4 @@ D:\ITAssets\Itasset.Application\obj\Debug\net8.0\Itasset.Application.dll
 D:\ITAssets\Itasset.Application\obj\Debug\net8.0\refint\Itasset.Application.dll
 D:\ITAssets\Itasset.Application\obj\Debug\net8.0\Itasset.Application.pdb
 D:\ITAssets\Itasset.Application\obj\Debug\net8.0\ref\Itasset.Application.dll
+D:\ITAssets\Itasset.Application\obj\Debug\net8.0\Itasset.Application.sourcelink.json

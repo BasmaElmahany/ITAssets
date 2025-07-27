@@ -22,6 +22,7 @@ namespace Itassets.Domain.Entities
 
         public string? ReturnStatus { get; set; }
 
+        public int Qty { get; set; }
         public Device Device { get; set; }
 
         public Employee Employee { get; set; }

@@ -17,7 +17,7 @@ namespace Itassets.Domain.Entities
         [ForeignKey("Office")]
         public Guid OfficeID { get; set; }
 
-
+        public int Qty { get; set; }
         public DateOnly AssignDate { get; set; }
 
         public string DeviceStatus { get; set; }

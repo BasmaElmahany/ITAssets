@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\ITAssets\\Itasset.Application\\Itasset.Application.csproj",
         "projectName": "Itasset.Application",
         "projectPath": "D:\\ITAssets\\Itasset.Application\\Itasset.Application.csproj",
-        "packagesPath": "C:\\Users\\Eng.Basma\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\basma.khalaf\\.nuget\\packages\\",
         "outputPath": "D:\\ITAssets\\Itasset.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Eng.Basma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\basma.khalaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,7 +49,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -94,14 +94,14 @@
         "projectUniqueName": "D:\\ITAssets\\Itassets.Domain\\Itassets.Domain.csproj",
         "projectName": "Itassets.Domain",
         "projectPath": "D:\\ITAssets\\Itassets.Domain\\Itassets.Domain.csproj",
-        "packagesPath": "C:\\Users\\Eng.Basma\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\basma.khalaf\\.nuget\\packages\\",
         "outputPath": "D:\\ITAssets\\Itassets.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Eng.Basma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\basma.khalaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -129,7 +129,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -150,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -160,14 +160,14 @@
         "projectUniqueName": "D:\\ITAssets\\Itassets.Infrastructure\\Itassets.Infrastructure.csproj",
         "projectName": "Itassets.Infrastructure",
         "projectPath": "D:\\ITAssets\\Itassets.Infrastructure\\Itassets.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Eng.Basma\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\basma.khalaf\\.nuget\\packages\\",
         "outputPath": "D:\\ITAssets\\Itassets.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Eng.Basma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\basma.khalaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -202,7 +202,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -265,7 +265,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

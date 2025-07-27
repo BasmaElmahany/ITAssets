@@ -8,6 +8,7 @@ namespace Itasset.Application.DTOs
 {
     public class OfficeDeviceReturnDTO
     {
+        public Guid devAss {  get; set; }
         public DateOnly ReturnDate { get; set; }
 
         public string ReturnStatus { get; set; }

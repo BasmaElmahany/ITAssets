@@ -357,6 +357,648 @@
         }
       }
     },
+    "/api/Device/GetAllDevices": {
+      "get": {
+        "tags": [
+          "Device"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Device/{id}": {
+      "get": {
+        "tags": [
+          "Device"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Device/create-with-photo": {
+      "post": {
+        "tags": [
+          "Device"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "SerialNumber": {
+                    "type": "string"
+                  },
+                  "Photo": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Status": {
+                    "type": "string"
+                  },
+                  "BrandId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "CategoryID": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "SupplierID": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "IsFaulty": {
+                    "type": "boolean"
+                  },
+                  "IsAvailable": {
+                    "type": "boolean"
+                  },
+                  "Qty": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "SerialNumber": {
+                  "style": "form"
+                },
+                "Photo": {
+                  "style": "form"
+                },
+                "Status": {
+                  "style": "form"
+                },
+                "BrandId": {
+                  "style": "form"
+                },
+                "CategoryID": {
+                  "style": "form"
+                },
+                "SupplierID": {
+                  "style": "form"
+                },
+                "IsFaulty": {
+                  "style": "form"
+                },
+                "IsAvailable": {
+                  "style": "form"
+                },
+                "Qty": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Device/{id}/update-with-photo": {
+      "put": {
+        "tags": [
+          "Device"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "SerialNumber": {
+                    "type": "string"
+                  },
+                  "Status": {
+                    "type": "string"
+                  },
+                  "BrandId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "CategoryID": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "SupplierID": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "IsFaulty": {
+                    "type": "boolean"
+                  },
+                  "IsAvailable": {
+                    "type": "boolean"
+                  },
+                  "Photo": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Qty": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "SerialNumber": {
+                  "style": "form"
+                },
+                "Status": {
+                  "style": "form"
+                },
+                "BrandId": {
+                  "style": "form"
+                },
+                "CategoryID": {
+                  "style": "form"
+                },
+                "SupplierID": {
+                  "style": "form"
+                },
+                "IsFaulty": {
+                  "style": "form"
+                },
+                "IsAvailable": {
+                  "style": "form"
+                },
+                "Photo": {
+                  "style": "form"
+                },
+                "Qty": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Device/{id}/delete-with-photo": {
+      "delete": {
+        "tags": [
+          "Device"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceMaintainanceSchedule/GetAll": {
+      "get": {
+        "tags": [
+          "DeviceMaintainanceSchedule"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceMaintainanceSchedule/GetbyId/{id}": {
+      "get": {
+        "tags": [
+          "DeviceMaintainanceSchedule"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceMaintainanceSchedule/PostMaintainance": {
+      "post": {
+        "tags": [
+          "DeviceMaintainanceSchedule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceMaintainanceScheduleDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceMaintainanceScheduleDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceMaintainanceScheduleDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceMaintainanceSchedule/PutSchedule/{id}": {
+      "put": {
+        "tags": [
+          "DeviceMaintainanceSchedule"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceMaintainanceScheduleDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceMaintainanceScheduleDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceMaintainanceScheduleDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceMaintainanceSchedule/Delete/{id}": {
+      "delete": {
+        "tags": [
+          "DeviceMaintainanceSchedule"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceRequests/GetAll": {
+      "get": {
+        "tags": [
+          "DeviceRequests"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceRequests/GetbyId/{id}": {
+      "get": {
+        "tags": [
+          "DeviceRequests"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceRequests/PostDeviceRequest": {
+      "post": {
+        "tags": [
+          "DeviceRequests"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceRequestsDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceRequestsDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceRequestsDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceRequests/PutDeviceRequest/{id}": {
+      "put": {
+        "tags": [
+          "DeviceRequests"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceRequestsDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceRequestsDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceRequestsDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceRequests/Delete/{id}": {
+      "delete": {
+        "tags": [
+          "DeviceRequests"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceTransfer/GetAll": {
+      "get": {
+        "tags": [
+          "DeviceTransfer"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceTransfer/GetbyId/{id}": {
+      "get": {
+        "tags": [
+          "DeviceTransfer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceTransfer/PostDeviceTransfer": {
+      "post": {
+        "tags": [
+          "DeviceTransfer"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceTransferDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceTransferDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceTransferDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceTransfer/PutDeviceTransfer/{id}": {
+      "put": {
+        "tags": [
+          "DeviceTransfer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceTransferDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceTransferDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceTransferDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeviceTransfer/Delete/{id}": {
+      "delete": {
+        "tags": [
+          "DeviceTransfer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Employee/GetAll": {
       "get": {
         "tags": [
@@ -488,6 +1130,126 @@
         }
       }
     },
+    "/api/EmployeeDeviceAssign/GetAll": {
+      "get": {
+        "tags": [
+          "EmployeeDeviceAssign"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeeDeviceAssign/GetbyId/{id}": {
+      "get": {
+        "tags": [
+          "EmployeeDeviceAssign"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeeDeviceAssign/Delete/{id}": {
+      "delete": {
+        "tags": [
+          "EmployeeDeviceAssign"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeeDeviceAssign/EmpDeviceAssignment": {
+      "post": {
+        "tags": [
+          "EmployeeDeviceAssign"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDeviceAssignmentDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDeviceAssignmentDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDeviceAssignmentDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeeDeviceAssign/ReturnDevice": {
+      "put": {
+        "tags": [
+          "EmployeeDeviceAssign"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDeviceReturn"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDeviceReturn"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDeviceReturn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Office/GetAll": {
       "get": {
         "tags": [
@@ -612,6 +1374,126 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/OfficeDeviceAssign/GetAll": {
+      "get": {
+        "tags": [
+          "OfficeDeviceAssign"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/OfficeDeviceAssign/GetbyId/{id}": {
+      "get": {
+        "tags": [
+          "OfficeDeviceAssign"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/OfficeDeviceAssign/Delete/{id}": {
+      "delete": {
+        "tags": [
+          "OfficeDeviceAssign"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/OfficeDeviceAssign/OffDeviceAssignment": {
+      "post": {
+        "tags": [
+          "OfficeDeviceAssign"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OfficeDeviceAssignmentDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OfficeDeviceAssignmentDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OfficeDeviceAssignmentDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/OfficeDeviceAssign/ReturnDevice": {
+      "put": {
+        "tags": [
+          "OfficeDeviceAssign"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OfficeDeviceReturnDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OfficeDeviceReturnDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OfficeDeviceReturnDTO"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -781,6 +1663,75 @@
         },
         "additionalProperties": false
       },
+      "DeviceMaintainanceScheduleDTO": {
+        "type": "object",
+        "properties": {
+          "deviceID": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "isComplete": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeviceRequestsDTO": {
+        "type": "object",
+        "properties": {
+          "categoryID": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "deviceName": {
+            "type": "string",
+            "nullable": true
+          },
+          "deviceCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "officeId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeviceTransferDTO": {
+        "type": "object",
+        "properties": {
+          "oldEmpId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "newEmpId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "deviceID": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "dateOnly": {
+            "type": "string",
+            "format": "date"
+          }
+        },
+        "additionalProperties": false
+      },
       "EmployeeDTO": {
         "type": "object",
         "properties": {
@@ -797,6 +1748,50 @@
             "nullable": true
           },
           "email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmployeeDeviceAssignmentDTO": {
+        "type": "object",
+        "properties": {
+          "deviceID": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "employeeID": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "assignDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "deviceStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "qty": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmployeeDeviceReturn": {
+        "type": "object",
+        "properties": {
+          "deviceID": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "returnDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "returnStatus": {
             "type": "string",
             "nullable": true
           }
@@ -825,6 +1820,50 @@
             "format": "uuid"
           },
           "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OfficeDeviceAssignmentDTO": {
+        "type": "object",
+        "properties": {
+          "deviceID": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "officeID": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "assignDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "deviceStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "qty": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OfficeDeviceReturnDTO": {
+        "type": "object",
+        "properties": {
+          "devAss": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "returnDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "returnStatus": {
             "type": "string",
             "nullable": true
           }

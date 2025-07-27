@@ -8,7 +8,6 @@ namespace Itasset.Application.DTOs
 {
     public class DeviceMaintainanceScheduleDTO
     {
-        public Guid Id { get; set; }
         public Guid DeviceID { get; set; }
         public string Description { get; set; }
         public DateOnly Date { get; set; }

@@ -20,3 +20,4 @@ D:\ITAssets\Itassets.Domain\obj\Debug\net8.0\Itassets.Domain.dll
 D:\ITAssets\Itassets.Domain\obj\Debug\net8.0\refint\Itassets.Domain.dll
 D:\ITAssets\Itassets.Domain\obj\Debug\net8.0\Itassets.Domain.pdb
 D:\ITAssets\Itassets.Domain\obj\Debug\net8.0\ref\Itassets.Domain.dll
+D:\ITAssets\Itassets.Domain\obj\Debug\net8.0\Itassets.Domain.sourcelink.json

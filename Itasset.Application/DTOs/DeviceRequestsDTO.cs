@@ -1,12 +1,8 @@
-﻿using Itassets.Domain.Entities;
-
-
-
+﻿
 namespace Itasset.Application.DTOs
 {
     public class DeviceRequestsDTO
     {
-        public Guid Id { get; set; }
 
        public Guid categoryID { get; set; }
         public string DeviceName { get; set; }

@@ -1,12 +1,171 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\ITAssets\\ItAssets\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|d:\\itassets\\itassets\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|d:\\itassets\\itassets\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|d:\\itassets\\itassets\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|d:\\itassets\\itassets\\controllers\\devicemaintainanceschedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|solutionrelative:controllers\\devicemaintainanceschedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DED10AF-421D-43EA-AB85-7E1B739B1D45}|..\\Itassets.Infrastructure\\Itassets.Infrastructure.csproj|d:\\itassets\\itassets.infrastructure\\services\\devicemaintainancescheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D34DEBA-A547-49EC-99E6-9C56F766B31C}|..\\Itasset.Application\\Itasset.Application.csproj|d:\\itassets\\itasset.application\\dtos\\devicemaintainancescheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|d:\\itassets\\itassets\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|solutionrelative:controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|d:\\itassets\\itassets\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|d:\\itassets\\itassets\\itassets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|solutionrelative:itassets.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\ITAssets\\ItAssets\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\ITAssets\\ItAssets\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-27T12:55:15.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ITAssets\\ItAssets\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\ITAssets\\ItAssets\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-27T12:52:53.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "D:\\ITAssets\\ItAssets\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BrandController.cs",
+              "ToolTip": "D:\\ITAssets\\ItAssets\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "Controllers\\BrandController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T12:35:30.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITAssets\\ItAssets\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ITAssets\\ItAssets\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwEIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T12:22:40.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ItAssets",
+              "DocumentMoniker": "D:\\ITAssets\\ItAssets\\ItAssets.csproj",
+              "RelativeDocumentMoniker": "ItAssets.csproj",
+              "ToolTip": "D:\\ITAssets\\ItAssets\\ItAssets.csproj",
+              "RelativeToolTip": "ItAssets.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-27T12:22:36.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeviceMaintainanceScheduleDTO.cs",
+              "DocumentMoniker": "D:\\ITAssets\\Itasset.Application\\DTOs\\DeviceMaintainanceScheduleDTO.cs",
+              "RelativeDocumentMoniker": "..\\Itasset.Application\\DTOs\\DeviceMaintainanceScheduleDTO.cs",
+              "ToolTip": "D:\\ITAssets\\Itasset.Application\\DTOs\\DeviceMaintainanceScheduleDTO.cs",
+              "RelativeToolTip": "..\\Itasset.Application\\DTOs\\DeviceMaintainanceScheduleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T12:19:25.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeviceMaintainanceScheduleService.cs",
+              "DocumentMoniker": "D:\\ITAssets\\Itassets.Infrastructure\\Services\\DeviceMaintainanceScheduleService.cs",
+              "RelativeDocumentMoniker": "..\\Itassets.Infrastructure\\Services\\DeviceMaintainanceScheduleService.cs",
+              "ToolTip": "D:\\ITAssets\\Itassets.Infrastructure\\Services\\DeviceMaintainanceScheduleService.cs",
+              "RelativeToolTip": "..\\Itassets.Infrastructure\\Services\\DeviceMaintainanceScheduleService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAowFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T12:18:20.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\ITAssets\\ItAssets\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\ITAssets\\ItAssets\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T12:18:02.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeviceMaintainanceScheduleController.cs",
+              "DocumentMoniker": "D:\\ITAssets\\ItAssets\\Controllers\\DeviceMaintainanceScheduleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DeviceMaintainanceScheduleController.cs",
+              "ToolTip": "D:\\ITAssets\\ItAssets\\Controllers\\DeviceMaintainanceScheduleController.cs",
+              "RelativeToolTip": "Controllers\\DeviceMaintainanceScheduleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T12:17:17.755Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

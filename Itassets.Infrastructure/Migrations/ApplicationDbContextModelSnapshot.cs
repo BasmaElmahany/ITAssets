@@ -77,6 +77,9 @@ namespace Itassets.Infrastructure.Migrations
                     b.Property<string>("PhotoUrl")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Qty")
+                        .HasColumnType("int");
+
                     b.Property<string>("SerialNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -176,6 +179,12 @@ namespace Itassets.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DeviceID");
+
+                    b.HasIndex("NewEmpId");
+
+                    b.HasIndex("OldEmpId");
+
                     b.ToTable("DeviceTransfer");
                 });
 
@@ -220,6 +229,9 @@ namespace Itassets.Infrastructure.Migrations
 
                     b.Property<Guid>("EmployeeID")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Qty")
+                        .HasColumnType("int");
 
                     b.Property<DateOnly?>("ReturnDate")
                         .HasColumnType("date");
@@ -269,6 +281,9 @@ namespace Itassets.Infrastructure.Migrations
 
                     b.Property<Guid>("OfficeID")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Qty")
+                        .HasColumnType("int");
 
                     b.Property<DateOnly?>("ReturnDate")
                         .HasColumnType("date");
@@ -563,6 +578,33 @@ namespace Itassets.Infrastructure.Migrations
                     b.Navigation("Office");
 
                     b.Navigation("category");
+                });
+
+            modelBuilder.Entity("Itassets.Domain.Entities.DeviceTransfer", b =>
+                {
+                    b.HasOne("Itassets.Domain.Entities.Device", "device")
+                        .WithMany()
+                        .HasForeignKey("DeviceID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Itassets.Domain.Entities.Employee", "emp2")
+                        .WithMany()
+                        .HasForeignKey("NewEmpId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Itassets.Domain.Entities.Employee", "emp1")
+                        .WithMany()
+                        .HasForeignKey("OldEmpId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("device");
+
+                    b.Navigation("emp1");
+
+                    b.Navigation("emp2");
                 });
 
             modelBuilder.Entity("Itassets.Domain.Entities.EmployeeDeviceAssignment", b =>

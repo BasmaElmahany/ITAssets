@@ -36,3 +36,4 @@ D:\ITAssets\Itassets.Infrastructure\obj\Debug\net8.0\refint\Itassets.Infrastruct
 D:\ITAssets\Itassets.Infrastructure\obj\Debug\net8.0\Itassets.Infrastructure.pdb
 D:\ITAssets\Itassets.Infrastructure\obj\Debug\net8.0\Itassets.Infrastructure.genruntimeconfig.cache
 D:\ITAssets\Itassets.Infrastructure\obj\Debug\net8.0\ref\Itassets.Infrastructure.dll
+D:\ITAssets\Itassets.Infrastructure\obj\Debug\net8.0\Itassets.Infrastructure.sourcelink.json

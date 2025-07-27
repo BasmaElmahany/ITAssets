@@ -27,6 +27,17 @@ namespace Itassets.Infrastructure.Common.Mappings
 
             CreateMap<EmployeeDTO, Employee>().ReverseMap();
             CreateMap<DeviceRequestsDTO, DeviceRequests>().ReverseMap();
+
+
+            CreateMap<DeviceDTO, Device>().ReverseMap();
+
+
+            CreateMap<EmployeeDeviceAssignmentDTO, EmployeeDeviceAssignment>().ReverseMap();
+
+            CreateMap<OfficeDeviceAssignmentDTO, OfficeDeviceAssignment>().ReverseMap();
+            CreateMap<DeviceTransferDTO, DeviceTransfer>().ReverseMap();
+
+            CreateMap<DeviceMaintainanceScheduleDTO, DeviceMaintainanceSchedule>().ReverseMap();
         }
     }
 }

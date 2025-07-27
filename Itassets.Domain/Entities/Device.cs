@@ -32,6 +32,7 @@ namespace Itassets.Domain.Entities
         public bool IsFaulty { get; set; }
         public bool IsAvailable { get; set; }
 
+        public int Qty { get; set; }
 
     }
 }

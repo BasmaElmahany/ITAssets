@@ -61,20 +61,40 @@ namespace ItAssets
                     RoleClaimType = ClaimTypes.Role
                 };
             });
+
+            builder.WebHost.ConfigureKestrel(serverOptions =>
+            {
+                serverOptions.ListenAnyIP(41335);
+            });
             builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 
             builder.Services.AddScoped<IUserService, UserService>();
+
             builder.Services.AddScoped<IEmailSender, SendGridEmailSender>();
 
             builder.Services.AddScoped<IBrand, BrandService>();
 
             builder.Services.AddScoped<ICategory, CategoryService>();
+
             builder.Services.AddScoped<IOffice, OfficeService>();
 
             builder.Services.AddScoped<ISupplier, SupplierService>();
 
             builder.Services.AddScoped<IEmployee, EmployeeService>();
+
+            builder.Services.AddScoped<IDevice, DeviceService>();
+
+            builder.Services.AddScoped<IDeviceRequest, DeviceRequestsService>();
+
+            builder.Services.AddScoped<IDeviceEmployeeAssignment, EmployeeDeviceAssignService>();
+
+            builder.Services.AddScoped<IDeviceOfficeAssignment, OfficeDeviceAssignService>();
+
+
+            builder.Services.AddScoped<IDeviceTransfer, DeviceTransferService>();
+
+            builder.Services.AddScoped<IDeviceMaintainanceSchedule, DeviceMaintainanceScheduleService>();
 
             builder.Services.AddControllers();
 
