@@ -74,6 +74,7 @@ namespace Itassets.Infrastructure.Services
                 CategoryID = request.CategoryID,
                 BrandId = request.BrandId,
                 SupplierID = request.SupplierID,
+                Qty = request.Qty,
             };
 
             if (request.Photo != null && request.Photo.Length > 0)
@@ -113,6 +114,7 @@ namespace Itassets.Infrastructure.Services
             existingDevice.SupplierID = request.SupplierID;
             existingDevice.IsAvailable = request.IsAvailable;
             existingDevice.IsFaulty = request.IsFaulty;
+            existingDevice.Qty = request.Qty;
 
             // Handle new photo
             if (request.Photo != null && request.Photo.Length > 0)
