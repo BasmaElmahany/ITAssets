@@ -90,12 +90,13 @@ namespace Itassets.Infrastructure.Services
 
         public async Task<OfficeDeviceAssignment> ReturnAsync(OfficeDeviceReturnDTO offDevReturn)
         {
-            var offdebAssign = await _context.OfficeDeviceAssignment.FindAsync(offDevReturn.devAss);
+            var offdebAssign = await _context.OfficeDeviceAssignment.FindAsync(offDevReturn.Id);
 
             if (offdebAssign == null)
             {
                 throw new Exception("This assignment Is not available ");
             }
+            offdebAssign.Id = offDevReturn.Id;
             offdebAssign.DeviceID = offdebAssign.DeviceID;
             offdebAssign.DeviceStatus = offdebAssign.DeviceStatus;
             offdebAssign.AssignDate = offdebAssign.AssignDate;

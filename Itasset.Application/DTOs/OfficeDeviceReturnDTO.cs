@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace Itasset.Application.DTOs
 {
     public class OfficeDeviceReturnDTO
-    {
+    { 
+        public Guid Id {  get; set; }
         public Guid devAss {  get; set; }
         public DateOnly ReturnDate { get; set; }
 

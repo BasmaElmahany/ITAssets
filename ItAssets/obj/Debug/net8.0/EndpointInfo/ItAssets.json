@@ -1783,6 +1783,10 @@
       "EmployeeDeviceReturn": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
           "deviceID": {
             "type": "string",
             "format": "uuid"
@@ -1855,6 +1859,10 @@
       "OfficeDeviceReturnDTO": {
         "type": "object",
         "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
           "devAss": {
             "type": "string",
             "format": "uuid"

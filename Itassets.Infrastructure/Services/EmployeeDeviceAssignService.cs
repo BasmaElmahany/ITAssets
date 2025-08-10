@@ -96,12 +96,13 @@ namespace Itassets.Infrastructure.Services
 
         public async Task<EmployeeDeviceAssignment> ReturnAsync(EmployeeDeviceReturn empDevReturn)
         {
-            var devEmpAssign = await _context.EmployeeDeviceAssignment.FindAsync(empDevReturn.deviceID);
+            var devEmpAssign = await _context.EmployeeDeviceAssignment.FindAsync(empDevReturn.Id);
             
             if (devEmpAssign == null)
             {
                 throw new Exception("This assignment Is not available ");
             }
+            devEmpAssign.Id = empDevReturn.Id;
             devEmpAssign.DeviceID = devEmpAssign.DeviceID;
             devEmpAssign.DeviceStatus = devEmpAssign.DeviceStatus;
             devEmpAssign.AssignDate = devEmpAssign.AssignDate;

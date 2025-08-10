@@ -1,12 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\ITAssets\\ItAssets\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DED10AF-421D-43EA-AB85-7E1B739B1D45}|..\\Itassets.Infrastructure\\Itassets.Infrastructure.csproj|d:\\itassets\\itassets.infrastructure\\services\\officedeviceassignservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OfficeDeviceAssignService.cs",
+              "DocumentMoniker": "D:\\ITAssets\\Itassets.Infrastructure\\Services\\OfficeDeviceAssignService.cs",
+              "RelativeDocumentMoniker": "..\\Itassets.Infrastructure\\Services\\OfficeDeviceAssignService.cs",
+              "ToolTip": "D:\\ITAssets\\Itassets.Infrastructure\\Services\\OfficeDeviceAssignService.cs",
+              "RelativeToolTip": "..\\Itassets.Infrastructure\\Services\\OfficeDeviceAssignService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowC8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T12:14:43.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
