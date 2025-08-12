@@ -43,7 +43,7 @@ namespace Itassets.Infrastructure.Services
 
         public async Task<IEnumerable<DeviceMaintainanceSchedule>> GetAllAsync()
         {
-            var DeviceMaintainanceSchedules = await _context.DeviceMaintainanceSchedule.Select(c => c).ToListAsync();
+            var DeviceMaintainanceSchedules = await _context.DeviceMaintainanceSchedule.Include(c=>c.Device).Select(c => c).ToListAsync();
 
             return DeviceMaintainanceSchedules;
         }

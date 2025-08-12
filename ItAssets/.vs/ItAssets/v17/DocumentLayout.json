@@ -6,14 +6,7 @@
       "AbsoluteMoniker": "D:0:0:{5DED10AF-421D-43EA-AB85-7E1B739B1D45}|..\\Itassets.Infrastructure\\Itassets.Infrastructure.csproj|d:\\itassets\\itassets.infrastructure\\services\\devicetransferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|d:\\itassets\\itassets\\controllers\\devicetransfercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7F8AA6E-0FB9-4159-A02C-E98816DAEDB8}|ItAssets.csproj|solutionrelative:controllers\\devicetransfercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\basma.khalaf\\AppData\\Local\\SourceServer\\4c87e3cb7c7254554c134830696057354607ae950e463d6ec2ac2cc4e79f1991\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DED10AF-421D-43EA-AB85-7E1B739B1D45}|..\\Itassets.Infrastructure\\Itassets.Infrastructure.csproj|d:\\itassets\\itassets.infrastructure\\services\\officedeviceassignservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DED10AF-421D-43EA-AB85-7E1B739B1D45}|..\\Itassets.Infrastructure\\Itassets.Infrastructure.csproj|d:\\itassets\\itassets.infrastructure\\services\\devicemaintainancescheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,32 +16,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AsyncTaskMethodBuilderT.cs",
-              "DocumentMoniker": "C:\\Users\\basma.khalaf\\AppData\\Local\\SourceServer\\4c87e3cb7c7254554c134830696057354607ae950e463d6ec2ac2cc4e79f1991\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
-              "ToolTip": "C:\\Users\\basma.khalaf\\AppData\\Local\\SourceServer\\4c87e3cb7c7254554c134830696057354607ae950e463d6ec2ac2cc4e79f1991\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
-              "ViewState": "AgIAAA0BAAAAAAAAAAAAAB8BAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T07:45:06.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeviceTransferController.cs",
-              "DocumentMoniker": "D:\\ITAssets\\ItAssets\\Controllers\\DeviceTransferController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DeviceTransferController.cs",
-              "ToolTip": "D:\\ITAssets\\ItAssets\\Controllers\\DeviceTransferController.cs",
-              "RelativeToolTip": "Controllers\\DeviceTransferController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAAC4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T07:45:05.729Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -57,22 +26,22 @@
               "RelativeDocumentMoniker": "..\\Itassets.Infrastructure\\Services\\DeviceTransferService.cs",
               "ToolTip": "D:\\ITAssets\\Itassets.Infrastructure\\Services\\DeviceTransferService.cs",
               "RelativeToolTip": "..\\Itassets.Infrastructure\\Services\\DeviceTransferService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wC4AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T07:13:23.097Z",
+              "WhenOpened": "2025-08-12T10:13:15.328Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OfficeDeviceAssignService.cs",
-              "DocumentMoniker": "D:\\ITAssets\\Itassets.Infrastructure\\Services\\OfficeDeviceAssignService.cs",
-              "RelativeDocumentMoniker": "..\\Itassets.Infrastructure\\Services\\OfficeDeviceAssignService.cs",
-              "ToolTip": "D:\\ITAssets\\Itassets.Infrastructure\\Services\\OfficeDeviceAssignService.cs",
-              "RelativeToolTip": "..\\Itassets.Infrastructure\\Services\\OfficeDeviceAssignService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEcAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DeviceMaintainanceScheduleService.cs",
+              "DocumentMoniker": "D:\\ITAssets\\Itassets.Infrastructure\\Services\\DeviceMaintainanceScheduleService.cs",
+              "RelativeDocumentMoniker": "..\\Itassets.Infrastructure\\Services\\DeviceMaintainanceScheduleService.cs",
+              "ToolTip": "D:\\ITAssets\\Itassets.Infrastructure\\Services\\DeviceMaintainanceScheduleService.cs",
+              "RelativeToolTip": "..\\Itassets.Infrastructure\\Services\\DeviceMaintainanceScheduleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T12:14:43.524Z",
+              "WhenOpened": "2025-08-12T10:12:51.448Z",
               "EditorCaption": ""
             }
           ]

@@ -38,7 +38,7 @@ namespace Itassets.Infrastructure.Services
             if (id == Guid.Empty)
                 throw new ArgumentException("Invalid DeviceTransfer ID.");
 
-            var deviceTransfer = await _context.DeviceTransfer.FindAsync(id);
+            var deviceTransfer = await _context.DeviceTransfer.FindAsync(id) ;
             _context.DeviceTransfer.Remove(deviceTransfer);
 
             if (deviceTransfer == null)
