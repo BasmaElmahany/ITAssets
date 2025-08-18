@@ -3,7 +3,22 @@
   "WorkspaceRootPath": "D:\\ITAssets\\ItAssets\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DED10AF-421D-43EA-AB85-7E1B739B1D45}|..\\Itassets.Infrastructure\\Itassets.Infrastructure.csproj|d:\\itassets\\itassets.infrastructure\\services\\devicemaintainancescheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DED10AF-421D-43EA-AB85-7E1B739B1D45}|..\\Itassets.Infrastructure\\Itassets.Infrastructure.csproj|d:\\itassets\\itassets.infrastructure\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D34DEBA-A547-49EC-99E6-9C56F766B31C}|..\\Itasset.Application\\Itasset.Application.csproj|d:\\itassets\\itasset.application\\dtos\\devicedetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D34DEBA-A547-49EC-99E6-9C56F766B31C}|..\\Itasset.Application\\Itasset.Application.csproj|d:\\itassets\\itasset.application\\dtos\\updatedevicewithphotorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D34DEBA-A547-49EC-99E6-9C56F766B31C}|..\\Itasset.Application\\Itasset.Application.csproj|d:\\itassets\\itasset.application\\dtos\\createdevicewithphotorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D34DEBA-A547-49EC-99E6-9C56F766B31C}|..\\Itasset.Application\\Itasset.Application.csproj|d:\\itassets\\itasset.application\\dtos\\devicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5829C74-77C4-430F-90EE-4619D0105ECC}|..\\Itassets.Domain\\Itassets.Domain.csproj|d:\\itassets\\itassets.domain\\entities\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,19 +28,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DeviceMaintainanceScheduleService.cs",
-              "DocumentMoniker": "D:\\ITAssets\\Itassets.Infrastructure\\Services\\DeviceMaintainanceScheduleService.cs",
-              "RelativeDocumentMoniker": "..\\Itassets.Infrastructure\\Services\\DeviceMaintainanceScheduleService.cs",
-              "ToolTip": "D:\\ITAssets\\Itassets.Infrastructure\\Services\\DeviceMaintainanceScheduleService.cs",
-              "RelativeToolTip": "..\\Itassets.Infrastructure\\Services\\DeviceMaintainanceScheduleService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA5wDEAAABLAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UpdateDeviceWithPhotoRequest.cs",
+              "DocumentMoniker": "D:\\ITAssets\\Itasset.Application\\DTOs\\UpdateDeviceWithPhotoRequest.cs",
+              "RelativeDocumentMoniker": "..\\Itasset.Application\\DTOs\\UpdateDeviceWithPhotoRequest.cs",
+              "ToolTip": "D:\\ITAssets\\Itasset.Application\\DTOs\\UpdateDeviceWithPhotoRequest.cs",
+              "RelativeToolTip": "..\\Itasset.Application\\DTOs\\UpdateDeviceWithPhotoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T10:12:51.448Z",
+              "WhenOpened": "2025-08-18T11:09:33.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DevicedetailsDTO.cs",
+              "DocumentMoniker": "D:\\ITAssets\\Itasset.Application\\DTOs\\DevicedetailsDTO.cs",
+              "RelativeDocumentMoniker": "..\\Itasset.Application\\DTOs\\DevicedetailsDTO.cs",
+              "ToolTip": "D:\\ITAssets\\Itasset.Application\\DTOs\\DevicedetailsDTO.cs",
+              "RelativeToolTip": "..\\Itasset.Application\\DTOs\\DevicedetailsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:08:55.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateDeviceWithPhotoRequest.cs",
+              "DocumentMoniker": "D:\\ITAssets\\Itasset.Application\\DTOs\\CreateDeviceWithPhotoRequest.cs",
+              "RelativeDocumentMoniker": "..\\Itasset.Application\\DTOs\\CreateDeviceWithPhotoRequest.cs",
+              "ToolTip": "D:\\ITAssets\\Itasset.Application\\DTOs\\CreateDeviceWithPhotoRequest.cs",
+              "RelativeToolTip": "..\\Itasset.Application\\DTOs\\CreateDeviceWithPhotoRequest.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:08:33.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeviceService.cs",
+              "DocumentMoniker": "D:\\ITAssets\\Itassets.Infrastructure\\Services\\DeviceService.cs",
+              "RelativeDocumentMoniker": "..\\Itassets.Infrastructure\\Services\\DeviceService.cs",
+              "ToolTip": "D:\\ITAssets\\Itassets.Infrastructure\\Services\\DeviceService.cs",
+              "RelativeToolTip": "..\\Itassets.Infrastructure\\Services\\DeviceService.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAcwHwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:06:51.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeviceDTO.cs",
+              "DocumentMoniker": "D:\\ITAssets\\Itasset.Application\\DTOs\\DeviceDTO.cs",
+              "RelativeDocumentMoniker": "..\\Itasset.Application\\DTOs\\DeviceDTO.cs",
+              "ToolTip": "D:\\ITAssets\\Itasset.Application\\DTOs\\DeviceDTO.cs",
+              "RelativeToolTip": "..\\Itasset.Application\\DTOs\\DeviceDTO.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:05:28.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Device.cs",
+              "DocumentMoniker": "D:\\ITAssets\\Itassets.Domain\\Entities\\Device.cs",
+              "RelativeDocumentMoniker": "..\\Itassets.Domain\\Entities\\Device.cs",
+              "ToolTip": "D:\\ITAssets\\Itassets.Domain\\Entities\\Device.cs",
+              "RelativeToolTip": "..\\Itassets.Domain\\Entities\\Device.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:04:42.695Z",
               "EditorCaption": ""
             }
           ]

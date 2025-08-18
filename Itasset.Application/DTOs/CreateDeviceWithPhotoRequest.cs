@@ -13,6 +13,9 @@ namespace Itasset.Application.DTOs
         public string SerialNumber { get; set; }
         public IFormFile? Photo { get; set; }
         public string Status { get; set; }
+        public string Spex { get; set; }
+
+        public int Warranty { get; set; }
         public Guid BrandId { get; set; }
         public Guid CategoryID { get; set; }
         public Guid? SupplierID { get; set; }

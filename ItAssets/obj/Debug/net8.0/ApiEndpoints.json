@@ -271,6 +271,16 @@
         "IsRequired": false
       },
       {
+        "Name": "Spex",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Warranty",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
         "Name": "BrandId",
         "Type": "System.Guid",
         "IsRequired": false
@@ -334,6 +344,16 @@
       {
         "Name": "Status",
         "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Spex",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Warranty",
+        "Type": "System.Int32",
         "IsRequired": false
       },
       {

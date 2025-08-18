@@ -84,12 +84,19 @@ namespace Itassets.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Spex")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid?>("SupplierID")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Warranty")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

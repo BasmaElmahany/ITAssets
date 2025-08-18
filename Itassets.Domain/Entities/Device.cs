@@ -12,8 +12,10 @@ namespace Itassets.Domain.Entities
 
         public string SerialNumber { get; set; }
 
-        public string Status { get; set; }
+        public string Status { get; set; } 
+        public string Spex { get; set; }
 
+        public int Warranty { get; set; }
         [ForeignKey("Brand")]
         public Guid BrandId { get; set; }
 

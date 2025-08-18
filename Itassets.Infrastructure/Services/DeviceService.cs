@@ -58,7 +58,10 @@ namespace Itassets.Infrastructure.Services
                 SupplierName = Device.Supplier?.Name,
                 IsAvailable = Device.IsAvailable,
                 IsFaulty = Device.IsFaulty,
-                PhotoUrl = Device.PhotoUrl
+                PhotoUrl = Device.PhotoUrl,
+                Spex = Device.Spex,
+                Warranty = Device.Warranty,
+                
             };
         }
 
@@ -75,6 +78,9 @@ namespace Itassets.Infrastructure.Services
                 BrandId = request.BrandId,
                 SupplierID = request.SupplierID,
                 Qty = request.Qty,
+                Spex = request.Spex,
+                Warranty= request.Warranty
+
             };
 
             if (request.Photo != null && request.Photo.Length > 0)
@@ -115,6 +121,9 @@ namespace Itassets.Infrastructure.Services
             existingDevice.IsAvailable = request.IsAvailable;
             existingDevice.IsFaulty = request.IsFaulty;
             existingDevice.Qty = request.Qty;
+            existingDevice.Spex = request.Spex;
+            existingDevice.Warranty = request.Warranty;
+
 
             // Handle new photo
             if (request.Photo != null && request.Photo.Length > 0)

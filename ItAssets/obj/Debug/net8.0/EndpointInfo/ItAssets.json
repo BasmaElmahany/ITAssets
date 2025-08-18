@@ -416,6 +416,13 @@
                   "Status": {
                     "type": "string"
                   },
+                  "Spex": {
+                    "type": "string"
+                  },
+                  "Warranty": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
                   "BrandId": {
                     "type": "string",
                     "format": "uuid"
@@ -451,6 +458,12 @@
                   "style": "form"
                 },
                 "Status": {
+                  "style": "form"
+                },
+                "Spex": {
+                  "style": "form"
+                },
+                "Warranty": {
                   "style": "form"
                 },
                 "BrandId": {
@@ -513,6 +526,13 @@
                   "Status": {
                     "type": "string"
                   },
+                  "Spex": {
+                    "type": "string"
+                  },
+                  "Warranty": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
                   "BrandId": {
                     "type": "string",
                     "format": "uuid"
@@ -549,6 +569,12 @@
                   "style": "form"
                 },
                 "Status": {
+                  "style": "form"
+                },
+                "Spex": {
+                  "style": "form"
+                },
+                "Warranty": {
                   "style": "form"
                 },
                 "BrandId": {

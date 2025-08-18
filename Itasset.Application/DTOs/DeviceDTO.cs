@@ -13,8 +13,13 @@ namespace Itasset.Application.DTOs
 
         public int Qty { get; set; }
         public string SerialNumber { get; set; }
+
         public string? PhotoUrl { get; set; }
         public string Status { get; set; }
+
+        public string Spex { get; set; }
+
+        public int Warranty { get; set; }
         public Guid BrandId { get; set; }
         public Guid CategoryID { get; set; }
         public Guid? SupplierID { get; set; }

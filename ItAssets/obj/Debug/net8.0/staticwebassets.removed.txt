@@ -1,2 +1,4 @@
-D:\ITAssets\ItAssets\wwwroot\images\devices\8e820a6f-0a37-4a31-ab1a-26b83b765524.jpg
-D:\ITAssets\ItAssets\wwwroot\images\devices\f4dcbedf-2dfd-421e-840c-af5dd8bc231b.jpg
+D:\ITAssets\ItAssets\wwwroot\images\devices\52bf818c-ea3a-4dec-8980-717f5fdbd253.jpg
+D:\ITAssets\ItAssets\wwwroot\images\devices\828cdf14-6070-4574-b6b5-e559287f45c7.jpg
+D:\ITAssets\ItAssets\wwwroot\images\devices\ad8c3ef0-dc99-4e10-b325-7f885cd2ed76.jpg
+D:\ITAssets\ItAssets\wwwroot\images\devices\e093460e-c4f8-4575-b49e-05da0d44c8a3.jpg

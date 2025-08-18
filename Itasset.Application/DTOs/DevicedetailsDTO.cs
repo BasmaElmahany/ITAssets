@@ -14,6 +14,9 @@ namespace Itasset.Application.DTOs
         public string SerialNumber { get; set; }
         public string? PhotoUrl { get; set; }
         public string Status { get; set; }
+        public string Spex { get; set; }
+
+        public int Warranty { get; set; }
         public string BrandName { get; set; }
         public string CategoryName { get; set; }
         public string? SupplierName { get; set; }
